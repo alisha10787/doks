@@ -1,0 +1,15 @@
+{
+  "ssg": "hugo",
+  "mode": "hosted",
+  "build": {
+    "hugoVersion": "0.128.1",
+    "rubyVersion": "2.7.3",
+    "nodeVersion": "18",
+    "denoVersion": "1.40.2",
+    "environment_variables": [],
+    "build_command": " hugo -b /",
+    "install_command": " hugo -b /",
+    "output_path": "public",
+    "preserved_paths": "resources/, .hugo_cache/"
+  }
+}
